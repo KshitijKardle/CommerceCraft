@@ -68,12 +68,5 @@ I welcome contributions to enhance and customize this project. If you would like
 5. Commit your changes and push them to your forked repository.
 6. Submit a pull request, clearly describing the changes you have made.
 
-## License
-
-released under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
-
-Feel free to explore, contribute, and customize this according to your needs!
-
-
 ## App Preview
 ![Peek 2022-01-09 19-15](https://user-images.githubusercontent.com/71011395/148689722-6ceacc8f-81b7-48e0-a258-9d4e543d1e7c.gif)

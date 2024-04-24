@@ -13,13 +13,18 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
-  <title>{% if title %} {{ title }} {% else %} Django Online Shop {% endif %}</title>
+  <title>{% if title %} {{ title }} {% else %} CommerceCraft {% endif %}</title>
 </head>
 
 <body>
   <header class='shadow-md bg-white font-[sans-serif] tracking-wide relative z-50'>
     <div class='flex flex-wrap justify-center px-10 py-4 relative'>
-      <div class="lg:absolute lg:right-10 flex items-center ml-auto space-x-8">
+      <div class="lg:absolute lg:left-10 lg:bottom-1">
+        <a href="{% url 'shop:home_page' %}">
+          <img src="/media/products/website logo.jpg" alt="website logo">
+        </a>
+      </div>
+      <div class="lg:absolute lg:right-10 lg:top-4 flex items-center ml-auto space-x-8">
         <span class="relative">
           {% if request.user.is_authenticated %}
           {{ request.user.get_likes_count}}</b>
